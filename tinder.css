@@ -34,3 +34,29 @@
   img {
     max-width: 30%;
   }
+
+/********************************************** PROFILES **************************************************/
+
+  .profiles {
+    width:100%;
+    position: relative;
+    height:450px;
+  }
+
+  .profile {
+    position: absolute;
+    left:0px;
+    top:0px;
+    width:100%;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  }
+
+
+  .profile__image {
+    height: 0;
+    padding-bottom:150%;
+    background-size: cover;
+    background-position: center center;
+  }
