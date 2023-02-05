@@ -57,7 +57,21 @@
     /* Avec none, on ne pourra pas sélectionner le texte de l'élt et celui de ses descendants. */
   }
 
+  .profile__name {
+    color:white;
+    font-weight: bold;
+    font-size:22px;
+  }
   
+  .profile__age {
+    color:var(--light-grey);
+    font-weight: normal;
+  }
+  
+  .profile__description {
+    color:white;
+    font-size:13px;
+  }
 
   .profile__image {
     height: 0;
