@@ -57,6 +57,14 @@
     /* Avec none, on ne pourra pas sélectionner le texte de l'élt et celui de ses descendants. */
   }
 
+  .profiles::before {
+    content:'Plus rien à matcher...';
+    color:var(--dark-grey);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+  }
 
   .profile__image {
     height: 0;
