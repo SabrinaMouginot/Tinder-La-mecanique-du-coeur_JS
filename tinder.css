@@ -65,10 +65,34 @@
     background-position: center center;
   }
 
-  /* .profile__infos {
+  .profile__infos {
     padding:12px;
     position:absolute;
     bottom:0px;
     background:linear-gradient(0deg, black, transparent);
     width: 100%;
-  } */
+  }
+
+  .bottombar {
+    margin-top:24px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:24px;
+    /* gap : raccourcie de row-gap et column-gap qui permet de définir les espaces (les gouttières) entre les lignes et entre les colonnes d'une grille. */
+  }
+
+  .bottombar__button {
+    width: 64px;
+    height: 64px;
+    border-radius:100%;
+    background:white; 
+    padding:16px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transition:.4s;
+  }
+
+  .bottombar__button:hover {
+    cursor:pointer;
+    opacity:0.8;
+  }
