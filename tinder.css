@@ -52,6 +52,9 @@
     overflow: hidden;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     cursor:pointer;
+    user-select: none;
+    /* user-select permet de contrôler l'opération de sélection. Il n'a pas effet sur le contenu chargé dans les élts de l'interface (chrome), sauf pour les boîtes de texte. */
+    /* Avec none, on ne pourra pas sélectionner le texte de l'élt et celui de ses descendants. */
   }
 
 
